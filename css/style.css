@@ -1,0 +1,598 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1250px;
+}
+
+@font-face {
+    src: url(../fonts/Assistant-Light.ttf);
+    font-family: assist-light;
+}
+
+@font-face {
+    src: url(../fonts/Assistant-Regular.ttf);
+    font-family: assist-regular;
+}
+
+@font-face {
+    src: url(../fonts/Assistant-SemiBold.ttf);
+    font-family: assist-semibold;
+}
+
+@font-face {
+    src: url(../fonts/Assistant-Bold.ttf);
+    font-family: assist-bold;
+}
+
+h2 {
+    font-family: assist-bold;
+    font-size: 60px;
+    color: #172B3C;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+}
+
+h2:before {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 3px;
+    background: #E0A099;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ============== Header Part CSS Start ================ */
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar .navbar-brand Img {
+    width: 241px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: assist-bold;
+    font-size: 22px;
+    color: #283031;
+    padding: 5px 13px;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #BA232C;
+}
+
+.navbar ul li:last-child a {
+    background: #283031;
+    border-radius: 10px;
+    color: #fff !important;
+    border-bottom-left-radius: 0;
+}
+
+.navbar ul li:last-child a:hover {
+    border-bottom: 2px solid transparent !important;
+    background: #fff;
+    color: #283031 !important;
+}
+
+/* ============== Header Part CSS End ================ */
+
+/* ============== Banner Part CSS Start ================ */
+
+#banner {
+    background: url(../images/banner-bg.png) no-repeat center bottom;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 280px;
+}
+
+.banner-text {
+    padding-top: 50px;
+}
+
+.banner-text img {
+    width: 350px;
+}
+
+.banner-text p {
+    font-family: assist-semibold;
+    font-size: 46px;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.banner-btn {
+    margin-top: 50px;
+}
+
+.banner-btn a {
+    font-family: assist-bold;
+    font-size: 22px;
+    color: #283031;
+    padding: 15px 35px;
+    background: #fff;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.banner-btn a:hover {
+    color: #fff;
+    background: #283031;
+}
+
+.banner-img {
+    position: relative;
+}
+
+.banner-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(10deg);
+}
+
+/* ============== Banner Part CSS End ================ */
+
+/* ============== Second Part CSS Start ================ */
+
+#second {
+    padding-top: 100px;
+    padding-bottom: 96px;
+}
+
+.second-item h3 {
+    font-family: assist-semibold;
+    font-size: 45px;
+    color: #172B3C;
+    padding: 25px 0;
+}
+
+.second-item p {
+    font-family: assist-regular;
+    font-size: 28px;
+    line-height: 40px;
+    color: #555555;
+}
+
+/* ============== Second Part CSS End ================ */
+
+/* ============== Slider Part CSS Start ================ */
+
+.brand-slide-item {
+    height: 120px;
+}
+
+.brand-slide-item img {
+  height: ;
+  max-width: 106px;
+  margin: 0 auto;
+}
+.brand-slide-item-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.brand-slide-item-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
+#slider {
+    background: #F7FAFD;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.brand-slide-item {
+    padding: 0 40px;
+}
+
+/* ============== Slider Part CSS End ================ */
+
+/* ============== Third Part CSS Start ================ */
+
+#third {
+    padding-top: 100px;
+    padding-bottom: 56px;
+}
+
+.third-item {
+    margin-bottom: 40px;
+}
+
+.third-item img {
+    width: 45px;
+    padding-bottom: 13px;
+}
+
+.third-item h4 {
+    font-family: assist-semibold;
+    font-size: 36px;
+    color: #158182;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.third-item p {
+    font-family: assist-regular;
+    font-size: 28px;
+    line-height: 39px;
+    color: #555555;
+    padding-top: 10px;
+}
+
+/* ============== Third Part CSS End ================ */
+
+/* ============== Fourth Part CSS Start ================ */
+
+#fourth {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #F7FAFD;
+}
+
+.fourth-first h2 {
+    text-align: right;
+}
+
+.fourth-first h2:before {
+    width: 70px;
+    right: 0;
+}
+
+.fourth-first h6 {
+    font-family: assist-semibold;
+    font-size: 43px;
+    color: #172B3C;
+    padding-bottom: 40px;
+}
+
+.fourth-first p {
+    font-family: assist-regular;
+    font-size: 43px;
+    color: #172B3C;
+}
+
+.fourth-second {
+    background: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.fourth-second h5 {
+    font-family: assist-semibold;
+    font-size: 40px;
+    color: #172B3C;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.fourth-second h5 span {
+    font-family: assist-semibold;
+    font-size: 95px;
+    color: #172B3C;
+}
+
+.fourth-second h6 {
+    font-family: assist-semibold;
+    font-size: 33px;
+    text-align: right;
+}
+
+.fourth-second ul {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.fourth-second ul li {
+    font-family: assist-regular;
+    font-size: 28px;
+    color: #172B3C;
+    padding-right: 20px;
+    line-height: 39px;
+    position: relative;
+}
+
+.fourth-second ul li:before {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #42B3E7;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    border-radius: 50%;
+}
+
+.fourth-second h4 {
+    font-family: assist-semibold;
+    font-size: 36px;
+    color: #158182;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.fourth-second-bottom {
+    background: linear-gradient(to right, #7AE6E7, #27A49C);
+    text-align: center;
+    padding: 25px 0;
+    border-bottom-right-radius: 15px;
+}
+
+.fourth-second-bottom h4 {
+    font-family: assist-semibold;
+    font-size: 36px;
+    color: #fff;
+}
+
+.fourth-second-main p {
+    font-family: assist-regular;
+    font-size: 25px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* ============== Fourth Part CSS End ================ */
+
+/* ============== Testimonial Part CSS Start ================ */
+
+#testimonial {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.test-slide-head img {
+    padding-left: 30px;
+}
+
+.test-slide-head h3 {
+    font-family: assist-semibold;
+    font-size: 43px;
+    color: #2C3A45;
+    display: inline-block;
+}
+
+.test-slide-body {
+    margin: 30px 0;
+}
+
+.test-slide-body img {
+	border-radius: 50%;
+	margin-bottom: -30px;
+}
+
+.test-slide-body h6 {
+    font-family: assist-regular;
+    font-size: 33px;
+    color: #2C3A45;
+}
+
+.test-slide-body p {
+    font-family: assist-light;
+    font-size: 33px;
+    color: #2C3A45;
+}
+
+.test-slide-body-text {
+    margin-right: 35px;
+}
+
+
+.test-slide-head h3 img {
+  max-width: 88px;
+  position: absolute;
+  right: -119px;
+}
+.test-slide-head h3 {
+  position: relative;
+}
+
+
+
+/* ============== Testimonial Part CSS End ================ */
+
+/* ============== Footer Part CSS Start ================ */
+
+footer {
+    background: #2C3A45;
+    padding: 80px 0;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+footer h2:before {
+    background: #8C3934;
+}
+
+footer h3 {
+    font-family: assist-semibold;
+    font-size: 43px;
+    color: #fff;
+    text-align: right;
+    padding-left: 150px;
+}
+
+footer ul {
+    margin-top: 70px;
+    position: relative;
+}
+
+footer ul:before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: #4FC3C0;
+    top: -35px;
+    right: 0;
+}
+
+footer ul li span {
+    font-family: assist-bold;
+    font-size: 27px;
+    color: #fff;
+}
+
+footer ul li {
+    font-family: assist-semibold;
+    font-size: 27px;
+    color: #fff;
+}
+
+footer .form-control {
+    background: none;
+    border: 1px solid rgb(125, 131, 136);
+    margin-bottom: 30px;
+    padding: 25px 10px;
+    text-align: right;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+
+footer button {
+    font-family: assist-bold;
+    font-size: 22px;
+    color: #fff;
+    padding: 13px 45px;
+    border: 0;
+    background: linear-gradient(to right, #7AE6E7, #27A49C);
+    border-radius: 10px;
+    cursor: pointer;
+    border-bottom-left-radius: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.banner-btn a:hover {
+    color: #fff;
+    background: #283031;
+}
+
+#cpryt {
+    padding: 20px 0;
+    background: #253039;
+}
+
+#cpryt p {
+    font-family: assist-regular;
+    font-size: 19px;
+    color: #fff;
+}
+
+/* ============== Footer Part CSS End ================ */
+
+/* ============== Breadcumb Part CSS End ================ */
+
+#breadcumb {
+    background: url(../images/banner-bg.png) no-repeat center bottom;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+
+#breadcumb h2 {
+}
+
+#breadcumb p {
+    font-family:assist-semibold;
+    font-size:30px;
+    text-align:right;
+}
+
+/* ============== Breadcumb Part CSS End ================ */
+
+/* ============== Second Page Text CSS Start ================ */
+
+#second-page {
+    padding: 100px 0;
+}
+
+.second-page-item {
+    position:relative;
+    padding-right:40px;
+    margin-bottom:20px;
+}
+
+.second-page-item i {
+    font-size:25px;
+    position:absolute;
+    top:5px;
+    right:0;
+}
+
+.second-page-item h4 {
+    font-family:assist-bold;
+    font-size:30px;
+    color:#172B3C;
+}
+
+.second-page-item p {
+    font-family:assist-regular;
+    font-size:30px;
+    color:#172B3C;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+
+/* ============== Second Page Text CSS End ================ */

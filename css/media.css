@@ -1,0 +1,993 @@
+@media (max-width:575.98px) {
+
+    .navbar .navbar-brand Img {
+        width: 120px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border: 2px solid #fff;
+    }
+
+    .navbar-light .navbar-toggler:focus {
+        border: 2px solid #fff;
+        outline: 0;
+    }
+
+    .navbar ul {
+        background: #fff;
+        padding-top:5px;
+        padding-bottom:15px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner-text img {
+        width: 230px;
+    }
+
+    #banner {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    .banner-text p {
+        font-size: 31px;
+        padding-top: 15px;
+        padding-bottom:0;
+    }
+
+    .banner-btn a {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+
+    #second {
+        padding-top: 60px;
+        padding-bottom: 26px;
+    }
+
+    h2 {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    
+    .second-item {
+        margin-bottom:30px;
+    }
+    
+    .second-item h3 {
+        font-size: 28px;
+        padding: 10px 0;
+        padding-top:20px;
+    }
+
+    .second-item p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #slider {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .brand-slide-item {
+        margin: 30px 0;
+        text-align:center;
+    }
+
+    #slider h2 {
+        margin-bottom:15px;
+    }
+
+    #third {
+        padding-top: 60px;
+        padding-bottom: 16px;
+    }
+
+    .third-item {
+        text-align:center;
+    }
+
+    .third-item h4 {
+        font-size: 28px;
+    }
+
+    .third-item img {
+        width: 30px;
+        padding-bottom: 13px;
+    }
+
+    .third-item p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 0px;
+    }
+
+    #fourth {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: #F7FAFD;
+    }
+
+    .fourth-first h2::before {
+        width: 70px;
+        right: -30px;
+    }
+
+    .fourth-first h6 {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+
+    .fourth-first p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .fourth-second  {
+        margin-top:40px;
+    }
+
+    .fourth-second h4 {
+        font-size: 28px;
+    }
+
+    .fourth-second h5 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .fourth-second h5 span {
+        font-size: 40px;
+    }
+
+    .fourth-second h6 {
+        font-size: 18px;
+    }
+
+    .fourth-second ul li {
+        font-size: 16px;
+        line-height:30px;
+    }
+
+    .fourth-second ul {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .fourth-second-bottom h4 {
+        font-size: 20px;
+    }
+
+    .fourth-second-main p {
+        font-size: 16px;
+    }
+
+    #testimonial {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    #testimonial h2 {
+        font-size: 35px;
+    }
+
+    .test-slide-head h3 {
+        font-size: 20px;
+        padding-right:50px;
+    }
+
+    .test-slide-head h3 img {
+        max-width: 70px;
+        position: absolute;
+        right: 0;
+    }
+
+    .test-slide-body img {
+        margin-bottom: -17px;
+        width: 70px !important;
+    }
+
+    .test-slide-body h6 {
+        font-size: 20px;
+    }
+
+    .test-slide-body p {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 50px 0;
+    }
+
+    footer h3 {
+        font-size: 28px;
+        padding-left: 0;
+    }
+
+    footer ul li {
+        font-size: 18px;
+    }
+
+    footer ul li span {
+        font-size: 18px;
+    }
+
+    .footer-second {
+        margin-top:40px;
+    }
+
+    footer button {
+        padding: 10px 41px;
+    }
+
+    #breadcumb p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #second-page {
+        padding: 60px 0;
+        padding-bottom: 30px;
+    }
+
+    .second-page-item {
+        padding-right: 30px;
+    }
+
+    .second-page-item i {
+        font-size: 18px;
+        top: 2px;
+        right: 4px;
+    }
+
+    .second-page-item h4 {
+        font-size: 18px;
+    }
+
+    .second-page-item p {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+    .navbar .navbar-brand Img {
+        width: 120px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border: 2px solid #fff;
+    }
+
+    .navbar-light .navbar-toggler:focus {
+        border: 2px solid #fff;
+        outline: 0;
+    }
+
+    .navbar ul {
+        background: #fff;
+        padding-top:5px;
+        padding-bottom:15px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner-text img {
+        width: 230px;
+    }
+
+    #banner {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    .banner-text p {
+        font-size: 31px;
+        padding-top: 15px;
+        padding-bottom:0;
+    }
+
+    .banner-btn a {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+
+    #second {
+        padding-top: 60px;
+        padding-bottom: 26px;
+    }
+
+    h2 {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    
+    .second-item {
+        margin-bottom:30px;
+    }
+    
+    .second-item h3 {
+        font-size: 28px;
+        padding: 10px 0;
+        padding-top:20px;
+    }
+
+    .second-item p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #slider {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .brand-slide-item {
+        margin: 30px 0;
+        text-align:center;
+    }
+
+    #slider h2 {
+        margin-bottom:15px;
+    }
+
+    #third {
+        padding-top: 60px;
+        padding-bottom: 16px;
+    }
+
+    .third-item {
+        text-align:center;
+    }
+
+    .third-item h4 {
+        font-size: 28px;
+    }
+
+    .third-item img {
+        width: 30px;
+        padding-bottom: 13px;
+    }
+
+    .third-item p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 0px;
+    }
+
+    #fourth {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: #F7FAFD;
+    }
+
+    .fourth-first h2::before {
+        width: 70px;
+        right: -30px;
+    }
+
+    .fourth-first h6 {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+
+    .fourth-first p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .fourth-second  {
+        margin-top:40px;
+    }
+
+    .fourth-second h4 {
+        font-size: 28px;
+    }
+
+    .fourth-second h5 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .fourth-second h5 span {
+        font-size: 40px;
+    }
+
+    .fourth-second h6 {
+        font-size: 18px;
+    }
+
+    .fourth-second ul li {
+        font-size: 16px;
+        line-height:30px;
+    }
+
+    .fourth-second ul {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .fourth-second-bottom h4 {
+        font-size: 20px;
+    }
+
+    .fourth-second-main p {
+        font-size: 16px;
+    }
+
+    #testimonial {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    #testimonial h2 {
+        font-size: 35px;
+    }
+
+    .test-slide-head h3 {
+        font-size: 20px;
+        padding-right:50px;
+    }
+
+    .test-slide-head h3 img {
+        max-width: 70px;
+        position: absolute;
+        right: 0;
+    }
+
+    .test-slide-body img {
+        margin-bottom: -17px;
+        width: 70px !important;
+    }
+
+    .test-slide-body h6 {
+        font-size: 20px;
+    }
+
+    .test-slide-body p {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 50px 0;
+    }
+
+    footer h3 {
+        font-size: 28px;
+        padding-left: 0;
+    }
+
+    footer ul li {
+        font-size: 18px;
+    }
+
+    footer ul li span {
+        font-size: 18px;
+    }
+
+    .footer-second {
+        margin-top:40px;
+    }
+
+    footer button {
+        padding: 10px 41px;
+    }
+
+    #breadcumb p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #second-page {
+        padding: 60px 0;
+        padding-bottom: 30px;
+    }
+
+    .second-page-item {
+        padding-right: 30px;
+    }
+
+    .second-page-item i {
+        font-size: 18px;
+        top: 2px;
+        right: 4px;
+    }
+
+    .second-page-item h4 {
+        font-size: 18px;
+    }
+
+    .second-page-item p {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+    .navbar .navbar-brand Img {
+        width: 120px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border: 2px solid #fff;
+    }
+
+    .navbar-light .navbar-toggler:focus {
+        border: 2px solid #fff;
+        outline: 0;
+    }
+
+    .navbar ul {
+        background: #fff;
+        padding-top:5px;
+        padding-bottom:15px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner-text img {
+        width: 230px;
+    }
+
+    #banner {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    .banner-text p {
+        font-size: 31px;
+        padding-top: 15px;
+        padding-bottom:0;
+    }
+
+    .banner-btn a {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+
+    #second {
+        padding-top: 60px;
+        padding-bottom: 26px;
+    }
+
+    h2 {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    
+    .second-item {
+        margin-bottom:30px;
+    }
+    
+    .second-item h3 {
+        font-size: 28px;
+        padding: 10px 0;
+        padding-top:20px;
+    }
+
+    .second-item p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #slider {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .brand-slide-item {
+        margin: 30px 0;
+        text-align:center;
+    }
+
+    #slider h2 {
+        margin-bottom:15px;
+    }
+
+    #third {
+        padding-top: 60px;
+        padding-bottom: 16px;
+    }
+
+    .third-item {
+        text-align:center;
+    }
+
+    .third-item h4 {
+        font-size: 28px;
+    }
+
+    .third-item img {
+        width: 30px;
+        padding-bottom: 13px;
+    }
+
+    .third-item p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 0px;
+    }
+
+    #fourth {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: #F7FAFD;
+    }
+
+    .fourth-first h2::before {
+        width: 70px;
+        right: -30px;
+    }
+
+    .fourth-first h6 {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+
+    .fourth-first p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .fourth-second  {
+        margin-top:40px;
+    }
+
+    .fourth-second h4 {
+        font-size: 28px;
+    }
+
+    .fourth-second h5 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .fourth-second h5 span {
+        font-size: 40px;
+    }
+
+    .fourth-second h6 {
+        font-size: 18px;
+    }
+
+    .fourth-second ul li {
+        font-size: 16px;
+        line-height:30px;
+    }
+
+    .fourth-second ul {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .fourth-second-bottom h4 {
+        font-size: 20px;
+    }
+
+    .fourth-second-main p {
+        font-size: 16px;
+    }
+
+    #testimonial {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    #testimonial h2 {
+        font-size: 35px;
+    }
+
+    .test-slide-head h3 {
+        font-size: 20px;
+        padding-right:50px;
+    }
+
+    .test-slide-head h3 img {
+        max-width: 70px;
+        position: absolute;
+        right: 0;
+    }
+
+    .test-slide-body img {
+        margin-bottom: -17px;
+        width: 70px !important;
+    }
+
+    .test-slide-body h6 {
+        font-size: 20px;
+    }
+
+    .test-slide-body p {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 50px 0;
+    }
+
+    footer h3 {
+        font-size: 28px;
+        padding-left: 0;
+    }
+
+    footer ul li {
+        font-size: 18px;
+    }
+
+    footer ul li span {
+        font-size: 18px;
+    }
+
+    .footer-second {
+        margin-top:40px;
+    }
+
+    footer button {
+        padding: 10px 41px;
+    }
+
+    #breadcumb p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #second-page {
+        padding: 60px 0;
+        padding-bottom: 30px;
+    }
+
+    .second-page-item {
+        padding-right: 30px;
+    }
+
+    .second-page-item i {
+        font-size: 18px;
+        top: 2px;
+        right: 4px;
+    }
+
+    .second-page-item h4 {
+        font-size: 18px;
+    }
+
+    .second-page-item p {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1299.98px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 17px;
+    }
+
+    .navbar .navbar-brand Img {
+        width: 180px;
+    }
+
+    .banner-img img {
+        top: 0;
+        left: -25px;
+    }
+
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 180px;
+    }
+
+    .second-item h3 {
+        font-size: 35px;
+        padding-bottom:10px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    .second-item p {
+        font-size: 21px;
+    }
+
+    .third-item h4 {
+        font-size: 27px;
+    }
+
+    .third-item p {
+        font-size: 21px;
+    }
+
+    .third-item img {
+        width: 32px;
+        padding-bottom: 13px;
+    }
+
+    .fourth-second h5 {
+        margin-bottom: 30px;
+    }
+
+    .fourth-second h5 span {
+        font-size: 55px;
+    }
+
+    .fourth-second h6 {
+        font-size: 27px;
+    }
+
+    .fourth-second ul {
+        margin-top: 20px;
+    }
+
+    .fourth-first h6 {
+        font-size: 31px;
+    }
+
+    .fourth-first p {
+        font-size: 30px;
+    }
+
+    .test-slide-head h3 {
+        font-size: 38px;
+    }
+
+    .test-slide-body h6 {
+        font-size: 28px;
+    }
+
+    .test-slide-body p {
+        font-size: 28px;
+    }
+
+    footer h3 {
+        font-size: 34px;
+    }
+
+    .second-page-item h4 {
+        font-size: 20px;
+    }
+
+    .second-page-item p {
+        font-size: 20px;
+    }
+
+    #breadcumb p {
+        font-size: 20px;
+    }
+
+    .second-page-item i {
+        font-size: 20px;
+        top: 2px;
+        right: 6px;
+    }
+}
+
+@media(min-width:1300px) and (max-width:1499px) {
+    h2 {
+        font-size: 50px;
+    }
+
+    .second-item h3 {
+        font-size: 35px;
+        padding-bottom:15px;
+    }
+
+    .second-item p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .third-item h4 {
+        font-size: 30px;
+    }
+
+    .third-item img {
+        width: 37px;
+    }
+
+    .third-item p {
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 0px;
+    }
+
+    .fourth-first h6 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .fourth-first p {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .fourth-second h5 span {
+        font-size: 60px;
+    }
+
+    .fourth-second h6 {
+        font-size: 25px;
+    }
+
+    .fourth-second ul li {
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    .fourth-second ul {
+        margin-top: 20px;
+    }
+
+    .test-slide-head h3 {
+        font-size: 34px;
+    }
+
+    .test-slide-body h6 {
+        font-size: 22px;
+    }
+
+    .test-slide-body p {
+        font-size: 23px;
+    }
+
+    .test-slide-body img {
+        margin-bottom: -22px;
+        width: 90px !important;
+    }
+
+    #testimonial {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    footer h3 {
+        font-size: 33px;
+    }
+
+    footer ul li {
+        font-size: 23px;
+    }
+
+    footer ul li span {
+        font-size: 23px;
+    }
+
+    #breadcumb p {
+        font-size: 23px;
+    }
+
+    .second-page-item h4 {
+        font-size: 28px;
+    }
+
+    .second-page-item p {
+        font-size: 22px;
+    }
+
+    #second-page {
+        padding-bottom: 60px;
+    }
+}
